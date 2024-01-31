@@ -5,7 +5,7 @@ n=int(input())
 a=[int(input()) for _ in range(n)]
 total=sum(a)
 
-dp=[0]*(n+4)
+dp=[0]*(n+1)
 if n==3:
     print(total-min(a[0],a[1]))
     exit()
